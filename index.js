@@ -1,17 +1,20 @@
 const express = require('express')
-const app = express()
-const port = process.env.PORT || 5000
+const app = express();
+const cors =require('cors');
 
-const courses =require('./data/courses.json')
+const port = process.env.PORT ||5000
 
-app.get('/', (req, res) => {
-  res.send('Hello World !')
+app.use(cors());
+const courses = require('./data/courses.json');
+
+app.get('/details-courses', (req, res) => {
+  res.send(courses)
 })
 
-app.get('/detail-courses',(req,res)=>{
-    res.send(courses)
+app.get('/',(req,res)=>{
+    res.send('news api')
 })
 
 app.listen(port, () => {
-    console.log('news server',port)
+    console.log('courses server',port)
 })

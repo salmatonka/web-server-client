@@ -1,31 +1,28 @@
 [
     {
       "id": "01",
-      "name": "Data Structures & Algorithms in Python"
+      "name": "HTML"
     },
     {
       "id": "02",
-      "name": "Complete Interview Preparation"
+      "name": "CSS"
     },
     {
       "id": "03",
-      "name": "GATE CS 2023 Test Series"
+      "name": "JavaScript"
     },
     {
       "id": "04",
-      "name": "Data Structures and Algorithms "
+      "name": "NodeJs"
     },
     {
       "id": "05",
-      "name": "JAVA Backend Development - Live"
+      "name": "ReactJs"
     },
     {
       "id": "06",
-      "name": "System Design "
-    },
-    
-    {
-      "id": "08",
-      "name": "Course Details"
+      "name": "Python "
     }
+    
+    
   ]
