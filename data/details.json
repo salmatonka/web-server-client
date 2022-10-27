@@ -1,8 +1,8 @@
 [
     {
       "_id": "12345a",
-      "course_id":"01",
-     "title": "HTML",
+      "course_id":"1",
+      "name": "HTML",
       "type_code": "TEXT",
       "course_duration":"Six month",
       "appeared": "1991",
@@ -14,8 +14,8 @@
   
    {
       "_id": "12345b",
-      "course_id":"02",
-      "title": "CSS",
+      "course_id":"2",
+      "name": "CSS",
       "code": "Text/CSS",
       "course_duration":"Six month",
       "appeared": "17 December 1996",
@@ -25,8 +25,8 @@
     },
     {
       "_id": "12345c",
-      "course_id":"03",
-      "title": "JavaScript",
+      "course_id":"3",
+      "name": "JavaScript",
       "code": "Dynamic, weak, duck",
       "course_duration":"Six month",
       "appeared": "4 December 1995",
@@ -38,8 +38,8 @@
     {
       
       "_id": "12345d",
-      "title": "NodeJS",
-      "course_id":"04",
+      "name": "NodeJS",
+      "course_id":"4",
       "code": "Runtime environment",
       "course_duration":"Six month",
       "appeared": "27 May 2009;",
@@ -51,8 +51,8 @@
     {
      
       "_id": "12345e",
-      "course_id":"05",
-      "title": "ReactJs",
+      "course_id":"5",
+      "name": "ReactJs",
       "type": "JavaScript library",
       "course_duration":"Six month",
       "appeared": "29 May 2013",
@@ -64,8 +64,8 @@
     {
      
       "_id": "12345f",
-      "course_id":"06",
-      "title": "Python",
+      "course_id":"6",
+      "name": "Python",
       "type": "Duck, dynamic, strong",
       "course_duration":"Six month",
       "appeared": "20 February 1991",
